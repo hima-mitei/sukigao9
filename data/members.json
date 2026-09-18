@@ -1,0 +1,2899 @@
+{
+  "schemaVersion": 1,
+  "datasetVersion": "2026-09-18",
+  "generatedAt": "2026-09-18T12:13:03.626Z",
+  "verifiedAt": "2026-09-18T12:28:06.155Z",
+  "verification": "collector_official_consistency_v1",
+  "activeCount": 137,
+  "members": [
+    {
+      "id": "m_3f1f9ffd9c94",
+      "name": "木村拓哉",
+      "groupId": null,
+      "memberType": "debuted_individual",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "35",
+        "profileUrl": "https://starto.jp/s/p/artist/35/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/dab/39f6d56abd1d7225af6f95477c01e.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_98d4cc6183e4",
+      "name": "堂本光一",
+      "groupId": null,
+      "memberType": "debuted_individual",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "163",
+        "profileUrl": "https://starto.jp/s/p/artist/163/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/3c5/3f5ecc29df563f0a542761bccae8a.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_eb5dd82c9611",
+      "name": "相葉雅紀",
+      "groupId": null,
+      "memberType": "debuted_individual",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "148",
+        "profileUrl": "https://starto.jp/s/p/artist/148/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/f41/183497c18fddb4f8a1d09d0b21dd8.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_1a9273aa6b65",
+      "name": "櫻井翔",
+      "groupId": null,
+      "memberType": "debuted_individual",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "152",
+        "profileUrl": "https://starto.jp/s/p/artist/152/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/552/02975bcbcc2f7213078bdbb54faab.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_289778ca6da5",
+      "name": "上田竜也",
+      "groupId": null,
+      "memberType": "debuted_individual",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "77",
+        "profileUrl": "https://starto.jp/s/p/artist/77/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/d71/8a6ddf02c178badb4e9e636ef90fd.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_dc57e7742721",
+      "name": "中丸雄一",
+      "groupId": null,
+      "memberType": "debuted_individual",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "78",
+        "profileUrl": "https://starto.jp/s/p/artist/78/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/63c/f0552a4758e60ed2522e71e0eb27f.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_2d5a6b28881d",
+      "name": "中島裕翔",
+      "groupId": null,
+      "memberType": "debuted_individual",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "81",
+        "profileUrl": "https://starto.jp/s/p/artist/81/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/05d/140ba8ed70aec41208284eae1691f.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_c16ed35cecef",
+      "name": "内博貴",
+      "groupId": null,
+      "memberType": "debuted_individual",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "27",
+        "profileUrl": "https://starto.jp/s/p/artist/27/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/069/d8712c7670989cb89041e0c9fbe9b.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_3e918ac04f2d",
+      "name": "岡本圭人",
+      "groupId": null,
+      "memberType": "debuted_individual",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "51",
+        "profileUrl": "https://starto.jp/s/p/artist/51/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/a65/a72c14d0533472907caca7d263832.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_037555170747",
+      "name": "中島健人",
+      "groupId": null,
+      "memberType": "debuted_individual",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "156",
+        "profileUrl": "https://starto.jp/s/p/artist/156/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/8c2/5dd1524179810f2436757827a3cca.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_a7a7cc313d59",
+      "name": "河合郁人",
+      "groupId": null,
+      "memberType": "debuted_individual",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "100",
+        "profileUrl": "https://starto.jp/s/p/artist/100/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/8aa/ce953afed452703ba80cc7d9ba087.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_45356f0f528e",
+      "name": "草間リチャード敬太",
+      "groupId": null,
+      "memberType": "debuted_individual",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "169",
+        "profileUrl": "https://starto.jp/s/p/artist/169/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/ff3/ccfd2cfc07ca882c3fc927019f8b4.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_fc1b0726fea2",
+      "name": "内海光司",
+      "groupId": null,
+      "memberType": "debuted_individual",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "3",
+        "profileUrl": "https://starto.jp/s/p/artist/3/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/8c0/da4a6c273f9bc94eec489768b3d78.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_0d0f447bf35d",
+      "name": "佐藤アツヒロ",
+      "groupId": null,
+      "memberType": "debuted_individual",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "4",
+        "profileUrl": "https://starto.jp/s/p/artist/4/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/98c/6b1774466f3396f76cb3b0b30a362.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_92266a2b21a2",
+      "name": "阿部亮平",
+      "groupId": "snow-man",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "127",
+        "profileUrl": "https://starto.jp/s/p/artist/127/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/9f2/f50c73296f103af19f5df925eb2d7.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_87a627e43864",
+      "name": "有岡大貴",
+      "groupId": "hey-say-jump",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "82",
+        "profileUrl": "https://starto.jp/s/p/artist/82/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/229/162bbb72d5e4c0d6c74726d199a8b.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_8d263ac87a45",
+      "name": "伊野尾慧",
+      "groupId": "hey-say-jump",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "84",
+        "profileUrl": "https://starto.jp/s/p/artist/84/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/b19/5cd37dfc1b2301122f8a18bb2ddaf.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_643da33fb6ab",
+      "name": "井ノ原快彦",
+      "groupId": "20th-century",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "140",
+        "profileUrl": "https://starto.jp/s/p/artist/140/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/246/93ee9e54803cf009d55e49927b696.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_77248aee60f1",
+      "name": "猪俣周杜",
+      "groupId": "timelesz",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "165",
+        "profileUrl": "https://starto.jp/s/p/artist/165/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/e2a/f0e6184a632c459f9ba4789de82e1.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_50e670e48042",
+      "name": "岩本照",
+      "groupId": "snow-man",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "122",
+        "profileUrl": "https://starto.jp/s/p/artist/122/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/5ff/40710af153fa9f4515ab0b80fd444.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_98b75bbfce87",
+      "name": "大倉忠義",
+      "groupId": "super-eight",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "75",
+        "profileUrl": "https://starto.jp/s/p/artist/75/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/a53/2ec187d7d56d8488d7e924a9e80dd.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_eb0abc5bd047",
+      "name": "大西流星",
+      "groupId": "naniwa-danshi",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "132",
+        "profileUrl": "https://starto.jp/s/p/artist/132/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/e9f/e847a5ace2bab2b4f4e235fb2bc50.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_97d5f0b7663b",
+      "name": "大橋和也",
+      "groupId": "naniwa-danshi",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "137",
+        "profileUrl": "https://starto.jp/s/p/artist/137/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/3db/228f073fd243b71af80c31116c4ee.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_82e5019ec3e5",
+      "name": "加藤シゲアキ",
+      "groupId": "news",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "69",
+        "profileUrl": "https://starto.jp/s/p/artist/69/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/814/1d621febec46003c7de750d58008e.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_ab5ee57057e1",
+      "name": "神山智洋",
+      "groupId": "west",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "106",
+        "profileUrl": "https://starto.jp/s/p/artist/106/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/e08/ab8beb0de7278a8d6b7e9e20d7252.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_c453ce925ae8",
+      "name": "川島如恵留",
+      "groupId": "travis-japan",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "144",
+        "profileUrl": "https://starto.jp/s/p/artist/144/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/ff2/597eeeeb280bbf48e845cc6f18353.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_583aa5d258bd",
+      "name": "菊池風磨",
+      "groupId": "timelesz",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "96",
+        "profileUrl": "https://starto.jp/s/p/artist/96/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/c1b/2785457ebc3c3cf6df2ed696fa5c1.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_f871756e479c",
+      "name": "京本大我",
+      "groupId": "sixtones",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "117",
+        "profileUrl": "https://starto.jp/s/p/artist/117/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/bc4/97edbad1432b6982579eea76e1324.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_2abe902f3ae6",
+      "name": "桐山照史",
+      "groupId": "west",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "104",
+        "profileUrl": "https://starto.jp/s/p/artist/104/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/b9c/a1f62222a3f8741a9bf46944c787e.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_8a92d6533653",
+      "name": "髙地優吾",
+      "groupId": "sixtones",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "119",
+        "profileUrl": "https://starto.jp/s/p/artist/119/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/c71/ee8e491e6827e5df10f569b18ed1a.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_78859e5b929f",
+      "name": "越岡裕貴",
+      "groupId": "4u",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "112",
+        "profileUrl": "https://starto.jp/s/p/artist/112/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/6fc/620537501760c9d4e0288513bd51a.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_cee92a8b3bae",
+      "name": "小島健",
+      "groupId": "ae-group",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "161",
+        "profileUrl": "https://starto.jp/s/p/artist/161/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/0bf/2f12ad703f522ae2db04629248efd.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_0fecdef9d728",
+      "name": "小瀧望",
+      "groupId": "west",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "109",
+        "profileUrl": "https://starto.jp/s/p/artist/109/profile"
+      },
+      "pendingChanges": [
+        {
+          "type": "leave_group",
+          "announcedAt": "2026-08-30",
+          "effectiveAt": null
+        }
+      ],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/c92/58f3a975db441b94af23467b38a7a.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_20cfda6cbdae",
+      "name": "小山慶一郎",
+      "groupId": "news",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "68",
+        "profileUrl": "https://starto.jp/s/p/artist/68/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/084/8073814681880999a557352cd8dfe.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_21ff5fefbd44",
+      "name": "五関晃一",
+      "groupId": "abc-z",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "101",
+        "profileUrl": "https://starto.jp/s/p/artist/101/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/f63/140e9017b919d53fcf985cfc72815.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_0ee7a2afc060",
+      "name": "坂本昌行",
+      "groupId": "20th-century",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "138",
+        "profileUrl": "https://starto.jp/s/p/artist/138/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/373/8a8a36461fe68b64655d864665efd.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_cae418b0f79b",
+      "name": "佐久間大介",
+      "groupId": "snow-man",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "130",
+        "profileUrl": "https://starto.jp/s/p/artist/130/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/989/e5a6a3af68918b76d97479f8f2319.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_abf5c3854ff0",
+      "name": "佐藤勝利",
+      "groupId": "timelesz",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "94",
+        "profileUrl": "https://starto.jp/s/p/artist/94/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/022/3e466e6b883b3972724a279bf7f4c.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_68960cc8efed",
+      "name": "佐野晶哉",
+      "groupId": "ae-group",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "162",
+        "profileUrl": "https://starto.jp/s/p/artist/162/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/6ac/6b697f0f5778268299fa7029ffbac.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_658d72cb5521",
+      "name": "重岡大毅",
+      "groupId": "west",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "103",
+        "profileUrl": "https://starto.jp/s/p/artist/103/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/acd/b4fb0f18780d9106549d010562d5c.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_bf8110d11a5d",
+      "name": "篠塚大輝",
+      "groupId": "timelesz",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "166",
+        "profileUrl": "https://starto.jp/s/p/artist/166/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/822/b3f35d3f232db50a3f53869fb3f1f.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_a8d79754e95e",
+      "name": "七五三掛龍也",
+      "groupId": "travis-japan",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "143",
+        "profileUrl": "https://starto.jp/s/p/artist/143/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/5d3/4865e908268c3f49f8228afce22e5.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_20112415ec8a",
+      "name": "ジェシー",
+      "groupId": "sixtones",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "116",
+        "profileUrl": "https://starto.jp/s/p/artist/116/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/44e/8ebc226045c0ead51d280d690c4c7.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_0af95c5dfc4f",
+      "name": "末澤誠也",
+      "groupId": "ae-group",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "159",
+        "profileUrl": "https://starto.jp/s/p/artist/159/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/05f/eba680dc870cd9b7ca76fe172a178.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_57fa5978adb3",
+      "name": "千賀健永",
+      "groupId": "kis-my-ft2",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "88",
+        "profileUrl": "https://starto.jp/s/p/artist/88/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/3a5/0ff28361136e486c7406d560e8580.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_74a3df28a63c",
+      "name": "髙木雄也",
+      "groupId": "hey-say-jump",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "83",
+        "profileUrl": "https://starto.jp/s/p/artist/83/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/2ee/d9fd22254eef5a2d06897b4316ae4.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_d2521324debd",
+      "name": "髙橋海人",
+      "groupId": "king-prince",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "115",
+        "profileUrl": "https://starto.jp/s/p/artist/115/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/9d0/299d1d4f508046ad57b2bc8ca457a.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_65727054d2a0",
+      "name": "高橋恭平",
+      "groupId": "naniwa-danshi",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "134",
+        "profileUrl": "https://starto.jp/s/p/artist/134/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/76b/7c394a790fe1f5f6ff230d0c4019b.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_d3d9846bd440",
+      "name": "辰巳雄大",
+      "groupId": "4u",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "111",
+        "profileUrl": "https://starto.jp/s/p/artist/111/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/e8d/d5cc7fe3c35bf6c49d0faf3c8ce3c.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_5fc437cf830c",
+      "name": "田中樹",
+      "groupId": "sixtones",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "121",
+        "profileUrl": "https://starto.jp/s/p/artist/121/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/cbc/ce75ee5a9362fd93c5446729f01cc.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_b4370480278c",
+      "name": "玉森裕太",
+      "groupId": "kis-my-ft2",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "92",
+        "profileUrl": "https://starto.jp/s/p/artist/92/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/2b2/38f8e2c9c8688c07624d20dded116.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_74743d011e06",
+      "name": "知念侑李",
+      "groupId": "hey-say-jump",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "80",
+        "profileUrl": "https://starto.jp/s/p/artist/80/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/f3a/34fe83a6579afdd71224f220a25bb.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_67359c6aa4b8",
+      "name": "塚田僚一",
+      "groupId": "abc-z",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "102",
+        "profileUrl": "https://starto.jp/s/p/artist/102/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/319/22ee7109648ccb181a429df95c9cb.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_48a8c646540a",
+      "name": "寺西拓人",
+      "groupId": "timelesz",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "54",
+        "profileUrl": "https://starto.jp/s/p/artist/54/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/5ac/8b66048c0050109e1c89edee26292.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_a97042b800e2",
+      "name": "戸塚祥太",
+      "groupId": "abc-z",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "99",
+        "profileUrl": "https://starto.jp/s/p/artist/99/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/de1/5c43b7691fb65e49330fe45289764.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_854859f9253a",
+      "name": "中間淳太",
+      "groupId": "west",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "105",
+        "profileUrl": "https://starto.jp/s/p/artist/105/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/ce4/d230d254aba8aa2f53324a2dd4011.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_b0f2532e79e7",
+      "name": "中村海人",
+      "groupId": "travis-japan",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "142",
+        "profileUrl": "https://starto.jp/s/p/artist/142/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/5dc/afaa01837035b78bc5c227582710d.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_a1a82d1d2103",
+      "name": "長尾謙杜",
+      "groupId": "naniwa-danshi",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "135",
+        "profileUrl": "https://starto.jp/s/p/artist/135/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/23b/351224876ba0c5ddc50cae293b365.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_ab339b5e19d5",
+      "name": "永瀬廉",
+      "groupId": "king-prince",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "114",
+        "profileUrl": "https://starto.jp/s/p/artist/114/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/350/251bff5fe491af6e009a2ffb443ed.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_3b46608186a9",
+      "name": "長野博",
+      "groupId": "20th-century",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "139",
+        "profileUrl": "https://starto.jp/s/p/artist/139/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/c02/cb682f84a8fd3b2434df861fbbdb1.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_6795e4bde568",
+      "name": "二階堂高嗣",
+      "groupId": "kis-my-ft2",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "93",
+        "profileUrl": "https://starto.jp/s/p/artist/93/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/1ae/1badf71eda4d214517b5fa1dcefcc.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_078024d70ae9",
+      "name": "西畑大吾",
+      "groupId": "naniwa-danshi",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "131",
+        "profileUrl": "https://starto.jp/s/p/artist/131/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/460/da267150e05c2179dfed043f20a2f.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_ac1cbcf8dbf0",
+      "name": "橋本将生",
+      "groupId": "timelesz",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "164",
+        "profileUrl": "https://starto.jp/s/p/artist/164/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/29c/7979c1aa4cf905a7f1ffc63e6744a.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_74895a95f27e",
+      "name": "橋本良亮",
+      "groupId": "abc-z",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "98",
+        "profileUrl": "https://starto.jp/s/p/artist/98/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/ecd/c3180f33a6066e513f151be5918d2.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_37b5ba07330a",
+      "name": "濵田崇裕",
+      "groupId": "west",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "108",
+        "profileUrl": "https://starto.jp/s/p/artist/108/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/f43/376f33923960a380c70625d21d1f9.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_8ccf3def454a",
+      "name": "原嘉孝",
+      "groupId": "timelesz",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "55",
+        "profileUrl": "https://starto.jp/s/p/artist/55/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/0d3/a129238b7df40e21d52b808ece961.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_1ae97149587b",
+      "name": "深澤辰哉",
+      "groupId": "snow-man",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "123",
+        "profileUrl": "https://starto.jp/s/p/artist/123/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/7d6/5524437948680f71be127764dc36b.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_3a0093030604",
+      "name": "福田悠太",
+      "groupId": "4u",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "110",
+        "profileUrl": "https://starto.jp/s/p/artist/110/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/f2c/66058262af1cdf4957eef32e0cc0c.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_0afc32f79465",
+      "name": "藤井流星",
+      "groupId": "west",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "107",
+        "profileUrl": "https://starto.jp/s/p/artist/107/profile"
+      },
+      "pendingChanges": [
+        {
+          "type": "leave_group",
+          "announcedAt": "2026-08-30",
+          "effectiveAt": null
+        }
+      ],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/084/4bf0a65afa55bf370c0f7a29dd274.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_908327b396c1",
+      "name": "藤ヶ谷太輔",
+      "groupId": "kis-my-ft2",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "91",
+        "profileUrl": "https://starto.jp/s/p/artist/91/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/bd8/a0eda0ee744e9230e960f8c50fa8d.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_e0be7986643d",
+      "name": "藤原丈一郎",
+      "groupId": "naniwa-danshi",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "136",
+        "profileUrl": "https://starto.jp/s/p/artist/136/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/4ae/ecb72cd33edd0a27e90296129dfe1.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_c643da17c607",
+      "name": "正門良規",
+      "groupId": "ae-group",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "158",
+        "profileUrl": "https://starto.jp/s/p/artist/158/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/b77/60917bb94128c5d185ada110840fb.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_e025aa0bc275",
+      "name": "増田貴久",
+      "groupId": "news",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "70",
+        "profileUrl": "https://starto.jp/s/p/artist/70/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/53a/867b465e7ecafb34b26995f8f63ad.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_56f4ae877ccb",
+      "name": "松倉海斗",
+      "groupId": "travis-japan",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "147",
+        "profileUrl": "https://starto.jp/s/p/artist/147/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/095/380778b6c7da9115bcd2bb4ffd054.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_39d5c948604e",
+      "name": "松崎祐介",
+      "groupId": "4u",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "113",
+        "profileUrl": "https://starto.jp/s/p/artist/113/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/1c5/33ebcdb556d527f9e0aa24a01f34d.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_917260ee4c36",
+      "name": "松島聡",
+      "groupId": "timelesz",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "97",
+        "profileUrl": "https://starto.jp/s/p/artist/97/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/ee9/8f190623799c185a2fd3ae7c4baca.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_5cbc9332ee8f",
+      "name": "松田元太",
+      "groupId": "travis-japan",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "146",
+        "profileUrl": "https://starto.jp/s/p/artist/146/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/207/2da2c8e612514618080b044d708db.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_eabac24d9e8e",
+      "name": "松村北斗",
+      "groupId": "sixtones",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "118",
+        "profileUrl": "https://starto.jp/s/p/artist/118/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/016/179da6384846883b02e4a6f9425d1.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_9c2bdfd9c3b3",
+      "name": "丸山隆平",
+      "groupId": "super-eight",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "73",
+        "profileUrl": "https://starto.jp/s/p/artist/73/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/70f/9eda1ee13bf6ef34cadd51f982a52.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_6c0339d6ab26",
+      "name": "道枝駿佑",
+      "groupId": "naniwa-danshi",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "133",
+        "profileUrl": "https://starto.jp/s/p/artist/133/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/390/3aa515128ff1d2d6deaf95a0dbe31.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_7e22f9fe060d",
+      "name": "宮田俊哉",
+      "groupId": "kis-my-ft2",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "89",
+        "profileUrl": "https://starto.jp/s/p/artist/89/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/36b/13ac2c7feb47d6ce0feb0e61023e6.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_ede80e211602",
+      "name": "宮舘涼太",
+      "groupId": "snow-man",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "129",
+        "profileUrl": "https://starto.jp/s/p/artist/129/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/b95/a4001397350ea613c97eb3406e240.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_a81be9ac4946",
+      "name": "宮近海斗",
+      "groupId": "travis-japan",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "141",
+        "profileUrl": "https://starto.jp/s/p/artist/141/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/ab5/524bc9fb4c37f468404136d1d6b6f.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_a344a5ba75c6",
+      "name": "向井康二",
+      "groupId": "snow-man",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "126",
+        "profileUrl": "https://starto.jp/s/p/artist/126/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/40c/b4b01ac52fb37283a2dd7bb7229a8.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_3aad37615da9",
+      "name": "村上信五",
+      "groupId": "super-eight",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "72",
+        "profileUrl": "https://starto.jp/s/p/artist/72/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/136/deaa36cd246642c3a7381afeb3aa6.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_7b0b545ddd55",
+      "name": "目黒蓮",
+      "groupId": "snow-man",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "128",
+        "profileUrl": "https://starto.jp/s/p/artist/128/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/8ee/57770816936c45c3280cd0441ebfc.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_1dd9eacdb9a3",
+      "name": "森本慎太郎",
+      "groupId": "sixtones",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "120",
+        "profileUrl": "https://starto.jp/s/p/artist/120/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/758/d4d529eff602e69e9edaeae5b6e3e.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_10b2ede78ed7",
+      "name": "八乙女光",
+      "groupId": "hey-say-jump",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "85",
+        "profileUrl": "https://starto.jp/s/p/artist/85/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/9b7/aa6381f76fff36619e866f3151373.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_a8224cdb0e8b",
+      "name": "安田章大",
+      "groupId": "super-eight",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "74",
+        "profileUrl": "https://starto.jp/s/p/artist/74/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/250/75e2917681db2fe71d369815ed6b6.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_654c1d8647fc",
+      "name": "薮宏太",
+      "groupId": "hey-say-jump",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "86",
+        "profileUrl": "https://starto.jp/s/p/artist/86/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/28d/7677e15a098f8e16a2267f4638536.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_c3e813045d71",
+      "name": "山田涼介",
+      "groupId": "hey-say-jump",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "79",
+        "profileUrl": "https://starto.jp/s/p/artist/79/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/6f0/46a8976c010a4606ac47002e597d2.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_0fe2b2ae581d",
+      "name": "横尾渉",
+      "groupId": "kis-my-ft2",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "90",
+        "profileUrl": "https://starto.jp/s/p/artist/90/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/d24/f9fe171f73c2a1f5dc476d062449d.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_a6d487b36121",
+      "name": "横山裕",
+      "groupId": "super-eight",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "71",
+        "profileUrl": "https://starto.jp/s/p/artist/71/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/78a/6ce44c7ba53e11cf8a0c9c70154e2.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_e1f0f3bf4d17",
+      "name": "吉澤閑也",
+      "groupId": "travis-japan",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "145",
+        "profileUrl": "https://starto.jp/s/p/artist/145/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/87b/4f4e056039ea683907ae69b846856.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_c9c66cf000f3",
+      "name": "ラウール",
+      "groupId": "snow-man",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "124",
+        "profileUrl": "https://starto.jp/s/p/artist/124/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/5e3/d642573f2cc80720fb45cc588b16e.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_fac2606e87a5",
+      "name": "渡辺翔太",
+      "groupId": "snow-man",
+      "memberType": "group_artist",
+      "hasDebutExperience": true,
+      "sourceSite": "starto",
+      "official": {
+        "entityId": "125",
+        "profileUrl": "https://starto.jp/s/p/artist/125/profile"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://starto.jp/images/81/2b7/fb2805ccd062ec8ecaf2a2b1c47a9.png",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_84d5411b723e",
+      "name": "浮所飛貴",
+      "groupId": "acees",
+      "memberType": "junior_group",
+      "hasDebutExperience": false,
+      "sourceSite": "jr",
+      "official": {
+        "entityId": "32",
+        "profileUrl": "https://jr-official.starto.jp/s/jr/persons/32"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://jr-official.starto.jp/images/40/39b/38f6431b57bdbc267b73f35e33c50-02.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_f882814c8b22",
+      "name": "那須雄登",
+      "groupId": "acees",
+      "memberType": "junior_group",
+      "hasDebutExperience": false,
+      "sourceSite": "jr",
+      "official": {
+        "entityId": "28",
+        "profileUrl": "https://jr-official.starto.jp/s/jr/persons/28"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://jr-official.starto.jp/images/40/847/ee6d333d41d8e4ffa8818c16b8a70-02.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_fee1fe9cdd3f",
+      "name": "作間龍斗",
+      "groupId": "acees",
+      "memberType": "junior_group",
+      "hasDebutExperience": false,
+      "sourceSite": "jr",
+      "official": {
+        "entityId": "27",
+        "profileUrl": "https://jr-official.starto.jp/s/jr/persons/27"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://jr-official.starto.jp/images/40/66d/c26991037b35a986993c5bec9a9ea-02.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_72f3f3275200",
+      "name": "深田竜生",
+      "groupId": "acees",
+      "memberType": "junior_group",
+      "hasDebutExperience": false,
+      "sourceSite": "jr",
+      "official": {
+        "entityId": "148",
+        "profileUrl": "https://jr-official.starto.jp/s/jr/persons/148"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://jr-official.starto.jp/images/40/4dd/8ec4d8e88dc9bab8e238f824cce04-02.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_cb8a5b7b66a5",
+      "name": "佐藤龍我",
+      "groupId": "acees",
+      "memberType": "junior_group",
+      "hasDebutExperience": false,
+      "sourceSite": "jr",
+      "official": {
+        "entityId": "29",
+        "profileUrl": "https://jr-official.starto.jp/s/jr/persons/29"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://jr-official.starto.jp/images/40/da8/8a2b18e170be8f257253b795e6ea3-02.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_773b9998300d",
+      "name": "岩﨑大昇",
+      "groupId": "key-to-lit",
+      "memberType": "junior_group",
+      "hasDebutExperience": false,
+      "sourceSite": "jr",
+      "official": {
+        "entityId": "33",
+        "profileUrl": "https://jr-official.starto.jp/s/jr/persons/33"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://jr-official.starto.jp/images/40/097/82762167083748ba06a5afc7b3cae-02.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_e1dc430c9f26",
+      "name": "井上瑞稀",
+      "groupId": "key-to-lit",
+      "memberType": "junior_group",
+      "hasDebutExperience": false,
+      "sourceSite": "jr",
+      "official": {
+        "entityId": "24",
+        "profileUrl": "https://jr-official.starto.jp/s/jr/persons/24"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://jr-official.starto.jp/images/40/cc7/b8ec8e1c2c0241485d5a4dee780db-02.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_122133ee180f",
+      "name": "中村嶺亜",
+      "groupId": "key-to-lit",
+      "memberType": "junior_group",
+      "hasDebutExperience": false,
+      "sourceSite": "jr",
+      "official": {
+        "entityId": "34",
+        "profileUrl": "https://jr-official.starto.jp/s/jr/persons/34"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://jr-official.starto.jp/images/40/7ca/9d8ace440116471dab0945fca3c96-02.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_418ef814eca5",
+      "name": "猪狩蒼弥",
+      "groupId": "key-to-lit",
+      "memberType": "junior_group",
+      "hasDebutExperience": false,
+      "sourceSite": "jr",
+      "official": {
+        "entityId": "26",
+        "profileUrl": "https://jr-official.starto.jp/s/jr/persons/26"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://jr-official.starto.jp/images/40/d7b/2c0250536055bc5ead155b5ef5f6e-02.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_f3d34c6e07d9",
+      "name": "佐々木大光",
+      "groupId": "key-to-lit",
+      "memberType": "junior_group",
+      "hasDebutExperience": false,
+      "sourceSite": "jr",
+      "official": {
+        "entityId": "37",
+        "profileUrl": "https://jr-official.starto.jp/s/jr/persons/37"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://jr-official.starto.jp/images/40/8d9/31cd0c8f8a9f74074aa23087fcfad-02.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_fca864887f2d",
+      "name": "橋本涼",
+      "groupId": "b-zai",
+      "memberType": "junior_group",
+      "hasDebutExperience": false,
+      "sourceSite": "jr",
+      "official": {
+        "entityId": "25",
+        "profileUrl": "https://jr-official.starto.jp/s/jr/persons/25"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://jr-official.starto.jp/images/40/53f/bb74d0fa6b13f8317736ddef46ad3-02.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_619d225bdfd7",
+      "name": "矢花黎",
+      "groupId": "b-zai",
+      "memberType": "junior_group",
+      "hasDebutExperience": false,
+      "sourceSite": "jr",
+      "official": {
+        "entityId": "40",
+        "profileUrl": "https://jr-official.starto.jp/s/jr/persons/40"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://jr-official.starto.jp/images/40/052/f7bec0adeabe5e798695bb3d01c96-02.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_0d2145ee8611",
+      "name": "今野大輝",
+      "groupId": "b-zai",
+      "memberType": "junior_group",
+      "hasDebutExperience": false,
+      "sourceSite": "jr",
+      "official": {
+        "entityId": "39",
+        "profileUrl": "https://jr-official.starto.jp/s/jr/persons/39"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://jr-official.starto.jp/images/40/0d2/96cd0456152c0097e94c0218792b2-02.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_ddb21b8590c6",
+      "name": "菅田琳寧",
+      "groupId": "b-zai",
+      "memberType": "junior_group",
+      "hasDebutExperience": false,
+      "sourceSite": "jr",
+      "official": {
+        "entityId": "35",
+        "profileUrl": "https://jr-official.starto.jp/s/jr/persons/35"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://jr-official.starto.jp/images/40/afe/fc659f1c04360272e99577acbcfa7-02.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_58fe7b65a3d7",
+      "name": "本髙克樹",
+      "groupId": "b-zai",
+      "memberType": "junior_group",
+      "hasDebutExperience": false,
+      "sourceSite": "jr",
+      "official": {
+        "entityId": "36",
+        "profileUrl": "https://jr-official.starto.jp/s/jr/persons/36"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://jr-official.starto.jp/images/40/360/4d3f5e0593595de0547f0fa71d79b-02.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_c9dc6dedf14b",
+      "name": "鈴木悠仁",
+      "groupId": "b-zai",
+      "memberType": "junior_group",
+      "hasDebutExperience": false,
+      "sourceSite": "jr",
+      "official": {
+        "entityId": "138",
+        "profileUrl": "https://jr-official.starto.jp/s/jr/persons/138"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://jr-official.starto.jp/images/40/70b/b41307405b5097c00ffe090c2b5c1-02.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_efda1e71aa44",
+      "name": "川﨑星輝",
+      "groupId": "b-zai",
+      "memberType": "junior_group",
+      "hasDebutExperience": false,
+      "sourceSite": "jr",
+      "official": {
+        "entityId": "120",
+        "profileUrl": "https://jr-official.starto.jp/s/jr/persons/120"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://jr-official.starto.jp/images/40/2b9/2250003446464f9e7c0cf298c4b16-02.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_8aee4b0fa603",
+      "name": "稲葉通陽",
+      "groupId": "b-zai",
+      "memberType": "junior_group",
+      "hasDebutExperience": false,
+      "sourceSite": "jr",
+      "official": {
+        "entityId": "104",
+        "profileUrl": "https://jr-official.starto.jp/s/jr/persons/104"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://jr-official.starto.jp/images/40/b32/a18f767421a956f578f706441a023-02.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_bdaca78101c0",
+      "name": "織山尚大",
+      "groupId": "howzit",
+      "memberType": "junior_group",
+      "hasDebutExperience": false,
+      "sourceSite": "jr",
+      "official": {
+        "entityId": "115",
+        "profileUrl": "https://jr-official.starto.jp/s/jr/persons/115"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://jr-official.starto.jp/images/40/e0d/8be6f17ec4d5ac54f07c35ab3f757-02.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_c839c47f2181",
+      "name": "西村拓哉",
+      "groupId": "howzit",
+      "memberType": "junior_group",
+      "hasDebutExperience": false,
+      "sourceSite": "jr",
+      "official": {
+        "entityId": "58",
+        "profileUrl": "https://jr-official.starto.jp/s/jr/persons/58"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://jr-official.starto.jp/images/40/18b/59364bafda88d46884de3f8f7fbf2-02.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_60c753a5901b",
+      "name": "黒田光輝",
+      "groupId": "howzit",
+      "memberType": "junior_group",
+      "hasDebutExperience": false,
+      "sourceSite": "jr",
+      "official": {
+        "entityId": "125",
+        "profileUrl": "https://jr-official.starto.jp/s/jr/persons/125"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://jr-official.starto.jp/images/40/caa/76ee13b3fb60181c95c1354b60302-02.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_750312387628",
+      "name": "檜山光成",
+      "groupId": "howzit",
+      "memberType": "junior_group",
+      "hasDebutExperience": false,
+      "sourceSite": "jr",
+      "official": {
+        "entityId": "163",
+        "profileUrl": "https://jr-official.starto.jp/s/jr/persons/163"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://jr-official.starto.jp/images/40/403/d96e7539d0206030e55496efea109-02.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_89561dd0aa01",
+      "name": "ヴァサイェガ渉",
+      "groupId": "howzit",
+      "memberType": "junior_group",
+      "hasDebutExperience": false,
+      "sourceSite": "jr",
+      "official": {
+        "entityId": "107",
+        "profileUrl": "https://jr-official.starto.jp/s/jr/persons/107"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://jr-official.starto.jp/images/40/fff/a664de1d5d21a32d458dc596dbdeb-02.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_c7246f216f06",
+      "name": "真弓孟之",
+      "groupId": "ambitious",
+      "memberType": "junior_group",
+      "hasDebutExperience": false,
+      "sourceSite": "jr",
+      "official": {
+        "entityId": "209",
+        "profileUrl": "https://jr-official.starto.jp/s/jr/persons/209"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://jr-official.starto.jp/images/40/162/f7e1e114ca7f3da40d3da77e96641-02.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_e4587c5af619",
+      "name": "永岡蓮王",
+      "groupId": "ambitious",
+      "memberType": "junior_group",
+      "hasDebutExperience": false,
+      "sourceSite": "jr",
+      "official": {
+        "entityId": "262",
+        "profileUrl": "https://jr-official.starto.jp/s/jr/persons/262"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://jr-official.starto.jp/images/40/2a9/4e83bceef1a0112e50fc14d47bb68-02.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_756a0aa0a342",
+      "name": "岡佑吏",
+      "groupId": "ambitious",
+      "memberType": "junior_group",
+      "hasDebutExperience": false,
+      "sourceSite": "jr",
+      "official": {
+        "entityId": "195",
+        "profileUrl": "https://jr-official.starto.jp/s/jr/persons/195"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://jr-official.starto.jp/images/40/614/f68bc6894d96733b0c28da1f80105-02.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_2a2c5c8721e2",
+      "name": "山中一輝",
+      "groupId": "ambitious",
+      "memberType": "junior_group",
+      "hasDebutExperience": false,
+      "sourceSite": "jr",
+      "official": {
+        "entityId": "213",
+        "profileUrl": "https://jr-official.starto.jp/s/jr/persons/213"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://jr-official.starto.jp/images/40/79e/c969c471330f122222052d5e15b3a-02.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_e5c47c660c69",
+      "name": "井上一太",
+      "groupId": "ambitious",
+      "memberType": "junior_group",
+      "hasDebutExperience": false,
+      "sourceSite": "jr",
+      "official": {
+        "entityId": "260",
+        "profileUrl": "https://jr-official.starto.jp/s/jr/persons/260"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://jr-official.starto.jp/images/40/138/b8bfd0cdc29ddb0a940f382560e50-02.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_3bc41cc62b82",
+      "name": "浦陸斗",
+      "groupId": "ambitious",
+      "memberType": "junior_group",
+      "hasDebutExperience": false,
+      "sourceSite": "jr",
+      "official": {
+        "entityId": "193",
+        "profileUrl": "https://jr-official.starto.jp/s/jr/persons/193"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://jr-official.starto.jp/images/40/202/6939255d238965a2a41b94bc12783-02.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_d086a6c7d42e",
+      "name": "大内リオン",
+      "groupId": "ambitious",
+      "memberType": "junior_group",
+      "hasDebutExperience": false,
+      "sourceSite": "jr",
+      "official": {
+        "entityId": "194",
+        "profileUrl": "https://jr-official.starto.jp/s/jr/persons/194"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://jr-official.starto.jp/images/40/4dd/b4f002ff7efbd0f0adb882315bf34-02.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_6a18ec1ef976",
+      "name": "伊藤篤志",
+      "groupId": "boys-be",
+      "memberType": "junior_group",
+      "hasDebutExperience": false,
+      "sourceSite": "jr",
+      "official": {
+        "entityId": "190",
+        "profileUrl": "https://jr-official.starto.jp/s/jr/persons/190"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://jr-official.starto.jp/images/40/c4d/1a72658cf6f0c435b9f6113bc3c58-02.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_244f25a0e528",
+      "name": "池川侑希弥",
+      "groupId": "boys-be",
+      "memberType": "junior_group",
+      "hasDebutExperience": false,
+      "sourceSite": "jr",
+      "official": {
+        "entityId": "251",
+        "profileUrl": "https://jr-official.starto.jp/s/jr/persons/251"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://jr-official.starto.jp/images/40/ffd/a0b566675b2a6d5bea894c922a332-02.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_bfbbd18a91a3",
+      "name": "角紳太郎",
+      "groupId": "boys-be",
+      "memberType": "junior_group",
+      "hasDebutExperience": false,
+      "sourceSite": "jr",
+      "official": {
+        "entityId": "204",
+        "profileUrl": "https://jr-official.starto.jp/s/jr/persons/204"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://jr-official.starto.jp/images/40/dcb/e05a038548a87f41a849aab64d2cf-02.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_5d6447447ff7",
+      "name": "丸岡晃聖",
+      "groupId": "boys-be",
+      "memberType": "junior_group",
+      "hasDebutExperience": false,
+      "sourceSite": "jr",
+      "official": {
+        "entityId": "210",
+        "profileUrl": "https://jr-official.starto.jp/s/jr/persons/210"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://jr-official.starto.jp/images/40/3ab/7d48cf7f71f466358ea7ba398b638-02.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_27855ae151a0",
+      "name": "北村仁太郎",
+      "groupId": "boys-be",
+      "memberType": "junior_group",
+      "hasDebutExperience": false,
+      "sourceSite": "jr",
+      "official": {
+        "entityId": "256",
+        "profileUrl": "https://jr-official.starto.jp/s/jr/persons/256"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://jr-official.starto.jp/images/40/aa4/560f635385b86aacf9464d1831c9e-02.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_ef17f2225427",
+      "name": "中川惺太",
+      "groupId": "boys-be",
+      "memberType": "junior_group",
+      "hasDebutExperience": false,
+      "sourceSite": "jr",
+      "official": {
+        "entityId": "263",
+        "profileUrl": "https://jr-official.starto.jp/s/jr/persons/263"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://jr-official.starto.jp/images/40/27e/c7053bf54fa63dba4bfa34e357f2b-02.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_6c50a5eb445b",
+      "name": "亀井海聖",
+      "groupId": "boys-be",
+      "memberType": "junior_group",
+      "hasDebutExperience": false,
+      "sourceSite": "jr",
+      "official": {
+        "entityId": "250",
+        "profileUrl": "https://jr-official.starto.jp/s/jr/persons/250"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://jr-official.starto.jp/images/40/e6e/fc3c007d857d33a22f986252108f8-02.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_ba4d631ee7b2",
+      "name": "嵜本孝太朗",
+      "groupId": "boys-be",
+      "memberType": "junior_group",
+      "hasDebutExperience": false,
+      "sourceSite": "jr",
+      "official": {
+        "entityId": "254",
+        "profileUrl": "https://jr-official.starto.jp/s/jr/persons/254"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://jr-official.starto.jp/images/40/a78/f4e630668dd9107589e361823a164-02.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_a81a8d6bb48e",
+      "name": "岩倉司",
+      "groupId": "boys-be",
+      "memberType": "junior_group",
+      "hasDebutExperience": false,
+      "sourceSite": "jr",
+      "official": {
+        "entityId": "255",
+        "profileUrl": "https://jr-official.starto.jp/s/jr/persons/255"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://jr-official.starto.jp/images/40/d39/0a531f993dcfb607acd23abaa2114-02.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_50f3608b60f0",
+      "name": "上垣廣祐",
+      "groupId": "boys-be",
+      "memberType": "junior_group",
+      "hasDebutExperience": false,
+      "sourceSite": "jr",
+      "official": {
+        "entityId": "252",
+        "profileUrl": "https://jr-official.starto.jp/s/jr/persons/252"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://jr-official.starto.jp/images/40/2dd/9640fa517f8980015d87464b22b66-02.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    },
+    {
+      "id": "m_b26084282e18",
+      "name": "千田藍生",
+      "groupId": "boys-be",
+      "memberType": "junior_group",
+      "hasDebutExperience": false,
+      "sourceSite": "jr",
+      "official": {
+        "entityId": "253",
+        "profileUrl": "https://jr-official.starto.jp/s/jr/persons/253"
+      },
+      "pendingChanges": [],
+      "portrait": {
+        "imageUrl": "https://jr-official.starto.jp/images/40/75d/2a2f0c29c0486c16aeab1e074630b-02.jpg",
+        "checkedAt": "2026-09-18"
+      },
+      "eligible": true,
+      "enabled": true,
+      "excludedReason": null,
+      "disabledReason": null
+    }
+  ]
+}
