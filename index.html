@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#fff8fc">
+  <title>ジャニーズ好き顔9選メーカー</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main class="app-shell">
+    <section id="loadingView" class="panel center">
+      <div class="spinner" aria-hidden="true"></div>
+      <p>メンバーデータを読み込み中…</p>
+    </section>
+
+    <section id="errorView" class="panel center hidden">
+      <div class="error-icon">!</div>
+      <h1>データを読み込めませんでした</h1>
+      <p id="errorMessage" class="muted"></p>
+    </section>
+
+    <section id="startView" class="panel hero hidden">
+      <p class="eyebrow">SUKIGAO 9</p>
+      <h1>ジャニーズ<br>好き顔9選メーカー</h1>
+      <p class="lead">137人から、あなたの「顔が好き」TOP9を決めよう💗</p>
+      <p class="muted">推しランキングじゃなくて、顔だけで直感勝負！</p>
+
+      <div class="info-card">
+        <div><strong>🌱 予選</strong><span>全35画面</span></div>
+        <p>表示されたメンバーの中から、顔が好きな人を選んでね。複数選択OK！</p>
+        <small>4人画面は0〜3人、3人画面は0〜3人まで。</small>
+      </div>
+
+      <button id="startBtn" class="primary big">予選をはじめる</button>
+      <button id="resumeBtn" class="primary big hidden">前回の続きから</button>
+      <button id="restartBtn" class="ghost hidden">最初からやり直す</button>
+      <p class="tiny">2026年9月版｜ログイン不要・途中経過はこの端末のブラウザ内に自動保存されます</p>
+      <details class="about-box">
+        <summary>対象メンバー・このサイトについて</summary>
+        <div class="about-content">
+          <p><strong>対象：</strong>2026年9月時点の137人</p>
+          <p>STARTO ENTERTAINMENT公式サイト掲載の現役グループ所属アーティスト、グループ外のデビュー経験者、ジュニア公式「グループ一覧」掲載メンバーを対象にしています。</p>
+          <p>退所・独立済みのタレント、グループに所属していない未デビューのタレントは対象外です。</p>
+          <p class="mini-note">非公式のファン制作サイトです。STARTO ENTERTAINMENTおよび各権利者とは関係ありません。</p>
+        </div>
+      </details>
+    </section>
+
+    <section id="prelimView" class="hidden">
+      <header class="stage-header">
+        <div class="stage-row">
+          <div><span class="stage-chip">🌱 予選</span><strong id="prelimProgressText">1 / 35</strong></div>
+          <button id="prelimQuitBtn" class="text-btn">トップへ</button>
+        </div>
+        <div class="progress-track"><div id="prelimProgressBar" class="progress-bar"></div></div>
+        <div class="prompt-block">
+          <h2>この中で好きな顔を選んでね</h2>
+          <p>複数OK。深く考えず、直感でどうぞ💗</p>
+        </div>
+      </header>
+
+      <section id="prelimGrid" class="candidate-grid"></section>
+
+      <div id="limitNotice" class="notice hidden">予選はこの画面で3人まで選べるよ</div>
+
+      <footer class="action-bar">
+        <button id="prelimBackBtn" class="secondary">← ひとつ前</button>
+        <div class="selection-status"><span id="selectionCount">選択中 0 / 3</span></div>
+        <button id="prelimNextBtn" class="primary">次へ →</button>
+      </footer>
+    </section>
+
+    <section id="prelimCompleteView" class="panel center hidden">
+      <div class="complete-icon">🎉</div>
+      <p class="eyebrow">PRELIMINARY CLEAR</p>
+      <h1>予選終了！</h1>
+      <p class="lead">好き顔候補は <strong id="survivorCount">0</strong> 人でした。</p>
+      <p class="muted">ここから候補同士を直接比べる「本選」へ進みます。</p>
+      <div id="survivorPreview" class="survivor-preview"></div>
+      <button id="toMainBtn" class="primary big">🔥 本選へ</button>
+      <button id="prelimRestartBtn" class="ghost">予選をもう一度やる</button>
+    </section>
+
+    <section id="mainIntroView" class="panel center hidden">
+      <div class="complete-icon">🔥</div>
+      <p class="eyebrow">MAIN ROUND</p>
+      <h1>本選</h1>
+      <p class="lead">この中で好きな顔を<br><strong>1位 → 2位</strong> の順に選んでね！</p>
+      <div class="info-card">
+        <p><strong>① 一番好き</strong>をタップ<br><strong>② 次に好き</strong>をタップ</p>
+        <small>本選は3ROUND。後半ほど近い候補同士を比べます。</small>
+      </div>
+      <button id="mainStartBtn" class="primary big">本選スタート</button>
+    </section>
+
+    <section id="mainView" class="hidden">
+      <header class="stage-header">
+        <div class="stage-row">
+          <div>
+            <span class="stage-chip hot">🔥 本選</span>
+            <strong id="mainRoundText">ROUND 1 / 3</strong>
+          </div>
+          <button id="mainQuitBtn" class="text-btn">トップへ</button>
+        </div>
+        <div class="progress-track"><div id="mainProgressBar" class="progress-bar hotbar"></div></div>
+        <div class="prompt-block">
+          <h2 id="mainPrompt">① 一番好きな顔は？</h2>
+          <p id="mainSubPrompt">まず1位をタップ</p>
+        </div>
+      </header>
+
+      <section id="mainGrid" class="candidate-grid main-grid"></section>
+
+      <footer class="action-bar main-action">
+        <button id="mainBackBtn" class="secondary">↶ ひとつ前</button>
+        <div class="selection-status">
+          <span id="mainScreenText">1 / 11</span>
+        </div>
+        <span class="auto-next">2位選択後<br>自動で次へ</span>
+      </footer>
+    </section>
+
+    <section id="roundClearView" class="round-clear hidden">
+      <div>
+        <div class="round-check">✓</div>
+        <h1 id="roundClearTitle">ROUND 1 CLEAR!</h1>
+        <p>そのまま次のROUNDへ</p>
+      </div>
+    </section>
+
+    <section id="mainCompleteView" class="panel center hidden">
+      <div class="complete-icon">🔥</div>
+      <p class="eyebrow">MAIN ROUND CLEAR</p>
+      <h1>本選3ROUND終了！</h1>
+      <p class="lead">候補同士の比較が終わりました。</p>
+      <p class="muted">ここから決勝進出18人を決める「本選 最終戦」へ進みます。</p>
+      <button id="toRescueBtn" class="primary big">⚔️ 本選 最終戦へ</button>
+      <button id="mainRestartBtn" class="ghost">最初からやり直す</button>
+    </section>
+
+    <section id="rescueIntroView" class="panel center hidden">
+      <div class="complete-icon">⚔️</div>
+      <p class="eyebrow">LAST BATTLE</p>
+      <h1>本選 最終戦</h1>
+      <p class="lead">決勝進出をかけた<br><strong>ラストバトル！</strong></p>
+      <p class="muted">あと少し👑<br>この中で好きな顔を1位 → 2位の順に選んでね。</p>
+      <div class="info-card">
+        <p><strong id="rescueInfoText">ボーダー付近の候補をもう一度比べます。</strong></p>
+        <small>本選上位は決勝進出をキープ。ボーダーだけを再比較します。</small>
+      </div>
+      <button id="rescueStartBtn" class="primary big">最終戦スタート</button>
+    </section>
+
+    <section id="rescueView" class="hidden">
+      <header class="stage-header">
+        <div class="stage-row">
+          <div>
+            <span class="stage-chip battle">⚔️ 最終戦</span>
+            <strong id="rescueRoundText">1 / 1</strong>
+          </div>
+          <button id="rescueQuitBtn" class="text-btn">トップへ</button>
+        </div>
+        <div class="progress-track"><div id="rescueProgressBar" class="progress-bar battlebar"></div></div>
+        <div class="prompt-block">
+          <h2 id="rescuePrompt">① 一番好きな顔は？</h2>
+          <p id="rescueSubPrompt">決勝進出をかけて、まず1位をタップ</p>
+        </div>
+      </header>
+
+      <section id="rescueGrid" class="candidate-grid main-grid"></section>
+
+      <footer class="action-bar main-action">
+        <button id="rescueBackBtn" class="secondary">↶ ひとつ前</button>
+        <div class="selection-status"><span id="rescueScreenText">1 / 5</span></div>
+        <span class="auto-next">2位選択後<br>自動で次へ</span>
+      </footer>
+    </section>
+
+    <section id="finalistsView" class="panel center hidden">
+      <div class="complete-icon">👑</div>
+      <p class="eyebrow">FINALISTS</p>
+      <h1>決勝進出18人決定！</h1>
+      <p class="lead">ここからは<strong>完全二択</strong>。</p>
+      <p class="muted">あなたの好き顔TOP9を、1位から9位まで決めます。</p>
+      <div id="finalistsPreview" class="survivor-preview finalists-preview"></div>
+      <button id="toFinalBtn" class="primary big">👑 決勝へ</button>
+      <button id="finalistsRestartBtn" class="ghost">最初からやり直す</button>
+    </section>
+
+    <section id="finalIntroView" class="panel center hidden">
+      <div class="complete-icon">👑</div>
+      <p class="eyebrow">FINAL ROUND</p>
+      <h1>決勝</h1>
+      <p class="lead">どっちの顔が好き？</p>
+      <p class="muted">ここからは完全二択。<br>1タップでどんどん進みます。</p>
+      <div class="info-card">
+        <p><strong>決めるのはTOP9だけ。</strong></p>
+        <small>10〜18位まで全部並べる必要はないので、TOP9が確定した時点で終了します。</small>
+      </div>
+      <button id="finalStartBtn" class="primary big">決勝スタート</button>
+    </section>
+
+    <section id="finalView" class="hidden">
+      <header class="stage-header">
+        <div class="stage-row">
+          <div>
+            <span class="stage-chip finalchip">👑 決勝</span>
+            <strong id="finalCompareText">TOP9選考中</strong>
+          </div>
+          <button id="finalQuitBtn" class="text-btn">トップへ</button>
+        </div>
+        <div class="progress-track"><div id="finalProgressBar" class="progress-bar finalbar"></div></div>
+        <div class="prompt-block">
+          <h2>どっちの顔が好き？</h2>
+          <p id="finalSubPrompt">直感で1人をタップ</p>
+        </div>
+      </header>
+
+      <section id="finalDuel" class="final-duel"></section>
+
+      <footer class="action-bar final-action">
+        <button id="finalUndoBtn" class="secondary">↶ ひとつ前</button>
+        <div class="selection-status"><span id="finalMadeText">TOP9選考中</span></div>
+        <span class="auto-next">1タップで<br>自動で次へ</span>
+      </footer>
+    </section>
+
+    <section id="resultView" class="result-panel hidden">
+      <div class="result-heading">
+        <p class="eyebrow">YOUR SUKIGAO 9</p>
+        <h1>あなたの<br>ジャニーズ好き顔9選 👑</h1>
+        <p>あなたの「顔が好き」TOP9</p>
+      </div>
+
+      <section id="resultGrid" class="result-grid"></section>
+
+      <section class="text-ranking">
+        <h2>TOP9</h2>
+        <div id="textRanking"></div>
+      </section>
+
+      <button id="shareXBtn" class="primary big">𝕏 で結果をシェア</button>
+      <button id="copyResultBtn" class="secondary wide-secondary">結果テキストをコピー</button>
+      <p id="copyNotice" class="tiny hidden">コピーしました ✓</p>
+      <button id="resultRestartBtn" class="ghost">もう一度やる</button>
+
+      <details class="about-box result-about">
+        <summary>このサイトについて</summary>
+        <div class="about-content">
+          <p>非公式のファン制作サイトです。STARTO ENTERTAINMENTおよび各権利者とは関係ありません。</p>
+          <p>画像のダウンロード機能・顔写真入り結果画像の生成機能は提供していません。</p>
+          <p>診断の途中経過と結果は、この端末のブラウザ内に保存されます。</p>
+          <p>画像・氏名等に関する権利は、それぞれの権利者に帰属します。</p>
+        </div>
+      </details>
+    </section>
+  </main>
+
+  <template id="candidateTemplate">
+    <button class="candidate-card" type="button">
+      <div class="photo-wrap">
+        <img class="candidate-photo" alt="">
+        <div class="photo-fallback">NO IMAGE</div>
+        <div class="heart" aria-hidden="true">♥</div>
+        <div class="medal hidden"></div>
+      </div>
+      <div class="candidate-info">
+        <strong class="candidate-name"></strong>
+        <span class="candidate-group"></span>
+      </div>
+    </button>
+  </template>
+
+  <template id="resultCardTemplate">
+    <article class="result-card">
+      <div class="result-photo-wrap">
+        <img class="result-photo" alt="">
+        <div class="result-photo-fallback">NO IMAGE</div>
+        <span class="rank-badge"></span>
+      </div>
+      <div class="result-card-info">
+        <strong class="result-name"></strong>
+        <span class="result-group"></span>
+      </div>
+    </article>
+  </template>
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
