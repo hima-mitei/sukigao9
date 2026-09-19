@@ -696,44 +696,37 @@ function updateAnonSubmitUI(){
     status.className="anon-status";status.textContent="";
   }
 }
-function waitForAnonResponse(submissionId,timeoutMs=12000){
-  return new Promise((resolve,reject)=>{
-    const timer=setTimeout(()=>{window.removeEventListener("message",onMessage);reject(new Error("timeout"));},timeoutMs);
-    function onMessage(event){
-      const d=event.data;
-      if(!d||d.source!=="sukigao9-anonymous-results"||d.submissionId!==submissionId)return;
-      clearTimeout(timer);window.removeEventListener("message",onMessage);
-      d.ok?resolve(d):reject(new Error(d.error||"send failed"));
-    }
-    window.addEventListener("message",onMessage);
-  });
-}
 async function submitAnonymousResult(){
   const btn=$("#submitAnonBtn"),status=$("#anonSubmitStatus");
   const ranking=state.result||[];
   if(!ANON_RESULTS_ENDPOINT||ranking.length!==9)return;
   const submissionId=anonSubmissionId();
   if(localStorage.getItem(anonSentKey())==="1"){updateAnonSubmitUI();return;}
-  btn.disabled=true;status.className="anon-status";status.textContent="送信中…";
-  const iframe=document.createElement("iframe");
-  iframe.name="anonSubmitFrame_"+Date.now();iframe.style.display="none";
-  const form=document.createElement("form");
-  form.method="POST";form.action=ANON_RESULTS_ENDPOINT;form.target=iframe.name;form.style.display="none";
-  const input=document.createElement("input");
-  input.type="hidden";input.name="payload";
-  input.value=JSON.stringify({submissionId,datasetVersion:state.datasetVersion,ranking});
-  form.appendChild(input);document.body.append(iframe,form);
+
+  btn.disabled=true;
+  status.className="anon-status";
+  status.textContent="送信中…";
+
+  const payload=JSON.stringify({
+    submissionId,
+    datasetVersion:state.datasetVersion,
+    ranking
+  });
+
   try{
-    const response=waitForAnonResponse(submissionId);
-    form.submit();
-    await response;
+    await fetch(ANON_RESULTS_ENDPOINT,{
+      method:"POST",
+      mode:"no-cors",
+      headers:{"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"},
+      body:new URLSearchParams({payload})
+    });
+
     localStorage.setItem(anonSentKey(),"1");
     updateAnonSubmitUI();
   }catch(e){
-    btn.disabled=false;status.className="anon-status error";
+    btn.disabled=false;
+    status.className="anon-status error";
     status.textContent="送信できませんでした。時間をおいてもう一度お試しください。";
-  }finally{
-    setTimeout(()=>{form.remove();iframe.remove();},500);
   }
 }
 
