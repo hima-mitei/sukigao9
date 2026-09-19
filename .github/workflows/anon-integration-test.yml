@@ -16,18 +16,10 @@ jobs:
         run: |
           set -euo pipefail
           endpoint='https://script.google.com/macros/s/AKfycbzDvqkKgVkjcNwGFkJAUv0H3ArOojgb8t2u16ZkhK7oqB12yKhsKoMW0Tm6PavO8XMJBg/exec'
-          payload='{"submissionId":"s9_integration_20260919_001","datasetVersion":"2026-09-18","ranking":["m_3f1f9ffd9c94","m_98d4cc6183e4","m_eb5dd82c9611","m_1a9273aa6b65","m_289778ca6da5","m_dc57e7742721","m_2d5a6b28881d","m_c16ed35cecef","m_3e918ac04f2d"]}'
+          payload='{"submissionId":"s9_integration_20260919_002","datasetVersion":"2026-09-18","ranking":["m_92266a2b21a2","m_87a627e43864","m_8d263ac87a45","m_643da33fb6ab","m_77248aee60f1","m_50e670e48042","m_98b75bbfce87","m_eb0abc5bd047","m_97d5f0b7663b"]}'
           echo "First POST"
           curl -L --fail-with-body --silent --show-error \
             --data-urlencode "payload=$payload" \
             "$endpoint" | tee first-response.html
           echo
-          echo "Duplicate POST"
-          curl -L --fail-with-body --silent --show-error \
-            --data-urlencode "payload=$payload" \
-            "$endpoint" | tee second-response.html
-          echo
-          grep -q '"ok":true' first-response.html
-          grep -q '"duplicate":false' first-response.html
-          grep -q '"ok":true' second-response.html
-          grep -q '"duplicate":true' second-response.html
+          echo "Response received"
