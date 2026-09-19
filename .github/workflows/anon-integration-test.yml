@@ -1,0 +1,33 @@
+name: Anonymous results integration test
+
+on:
+  push:
+    branches:
+      - anonymous-results-v1
+    paths:
+      - ".github/workflows/anon-integration-test.yml"
+
+jobs:
+  post-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: POST one anonymous TOP9 result
+        shell: bash
+        run: |
+          set -euo pipefail
+          endpoint='https://script.google.com/macros/s/AKfycbzDvqkKgVkjcNwGFkJAUv0H3ArOojgb8t2u16ZkhK7oqB12yKhsKoMW0Tm6PavO8XMJBg/exec'
+          payload='{"submissionId":"s9_integration_20260919_001","datasetVersion":"2026-09-18","ranking":["m_3f1f9ffd9c94","m_98d4cc6183e4","m_eb5dd82c9611","m_1a9273aa6b65","m_289778ca6da5","m_dc57e7742721","m_2d5a6b28881d","m_c16ed35cecef","m_3e918ac04f2d"]}'
+          echo "First POST"
+          curl -L --fail-with-body --silent --show-error \
+            --data-urlencode "payload=$payload" \
+            "$endpoint" | tee first-response.html
+          echo
+          echo "Duplicate POST"
+          curl -L --fail-with-body --silent --show-error \
+            --data-urlencode "payload=$payload" \
+            "$endpoint" | tee second-response.html
+          echo
+          grep -q '"ok":true' first-response.html
+          grep -q '"duplicate":false' first-response.html
+          grep -q '"ok":true' second-response.html
+          grep -q '"duplicate":true' second-response.html
