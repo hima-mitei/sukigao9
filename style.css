@@ -146,3 +146,65 @@ button:focus-visible{outline:3px solid rgba(184,95,143,.35);outline-offset:3px}
 .about-box summary{cursor:pointer;font-size:12px;font-weight:700;color:#7b5d6e;list-style-position:inside}
 .about-content{margin-top:10px;padding:12px 13px;background:#fffafd;border:1px solid #efe1e9;border-radius:13px;font-size:11px;line-height:1.7}
 .about-content p{margin:0 0 7px}.about-content p:last-child{margin-bottom:0}.mini-note{color:#91838b}.result-about{margin-top:22px}
+
+
+/* 匿名TOP9集計 */
+.anon-submit-card{
+  margin:18px 0;
+  padding:18px 14px;
+  border:1px solid #ead5e1;
+  border-radius:18px;
+  background:linear-gradient(180deg,#fff8fc,#fff);
+  text-align:center;
+}
+.anon-eyebrow{
+  margin:0 0 6px;
+  font-size:10px;
+  letter-spacing:.12em;
+  font-weight:800;
+  color:#9b7188;
+}
+.anon-submit-card h2{
+  margin:0 0 9px;
+  font-size:18px;
+  line-height:1.4;
+}
+.anon-submit-card>p:not(.anon-eyebrow):not(.anon-status){
+  margin:6px 0;
+  font-size:12px;
+  line-height:1.65;
+  color:#72636c;
+}
+.anon-note strong{color:#7e4767}
+.anon-submit-card .primary{margin-top:12px}
+.anon-submit-card .primary.sent{
+  background:#7c9b87;
+  box-shadow:none;
+}
+.anon-submit-card .primary:disabled{cursor:default}
+.anon-status{
+  min-height:18px;
+  margin:9px 0 0;
+  font-size:12px;
+  font-weight:700;
+  color:#6b5261;
+}
+.anon-status.ok{color:#4d795d}
+.anon-status.error{color:#a4475c}
+.anon-details{
+  margin-top:10px;
+  text-align:left;
+  border-top:1px solid #f0e1e9;
+  padding-top:9px;
+}
+.anon-details summary{
+  cursor:pointer;
+  font-size:11px;
+  font-weight:700;
+  color:#7d6071;
+}
+.anon-details p{
+  font-size:10px;
+  line-height:1.65;
+  color:#877982;
+}
