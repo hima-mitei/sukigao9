@@ -3,6 +3,8 @@ const views = ["loadingView","errorView","startView","prelimView","prelimComplet
   .map(id => $("#"+id));
 
 const FLOW_KEY = "sukigao9:flow:public:v1";
+const ANON_RESULTS_ENDPOINT = "https://script.google.com/macros/s/AKfycbzDvqkKgVkjcNwGFkJAUv0H3ArOojgb8t2u16ZkhK7oqB12yKhsKoMW0Tm6PavO8XMJBg/exec";
+const ANON_SENT_KEY_PREFIX = "sukigao9:anon-sent:";
 const OLD_V5_KEY = "sukigao9:flow:v5";
 const OLD_V4_KEY = "sukigao9:flow:v4";
 const OLD_V3_KEY = "sukigao9:flow:v3";
@@ -666,7 +668,68 @@ function renderResult(){
     const r=i+1;row.innerHTML=`<strong>${r===1?"👑1位":`${r}位`}</strong><span>${m?.name??id}</span>`;
     list.appendChild(row);
   });
+  updateAnonSubmitUI();
 }
+function anonSubmissionId(){
+  if(!state.anonSubmissionId){
+    const bytes=new Uint8Array(16);crypto.getRandomValues(bytes);
+    state.anonSubmissionId="s9_"+Array.from(bytes,b=>b.toString(16).padStart(2,"0")).join("");
+    save();
+  }
+  return state.anonSubmissionId;
+}
+function anonSentKey(){return ANON_SENT_KEY_PREFIX+anonSubmissionId();}
+function updateAnonSubmitUI(){
+  const btn=$("#submitAnonBtn"),status=$("#anonSubmitStatus");
+  if(!btn||!status)return;
+  const sent=localStorage.getItem(anonSentKey())==="1";
+  if(sent){
+    btn.disabled=true;btn.classList.add("sent");btn.textContent="送信済み ✓";
+    status.className="anon-status ok";
+    status.textContent="ご協力ありがとうございます💗 集計結果は後日noteで公開予定です。";
+  }else if(!ANON_RESULTS_ENDPOINT){
+    btn.disabled=true;btn.classList.remove("sent");
+    status.className="anon-status";
+    status.textContent="匿名集計は準備中です。";
+  }else{
+    btn.disabled=false;btn.classList.remove("sent");btn.textContent="💗 匿名でTOP9を集計に送る";
+    status.className="anon-status";status.textContent="";
+  }
+}
+async function submitAnonymousResult(){
+  const btn=$("#submitAnonBtn"),status=$("#anonSubmitStatus");
+  const ranking=state.result||[];
+  if(!ANON_RESULTS_ENDPOINT||ranking.length!==9)return;
+  const submissionId=anonSubmissionId();
+  if(localStorage.getItem(anonSentKey())==="1"){updateAnonSubmitUI();return;}
+
+  btn.disabled=true;
+  status.className="anon-status";
+  status.textContent="送信中…";
+
+  const payload=JSON.stringify({
+    submissionId,
+    datasetVersion:state.datasetVersion,
+    ranking
+  });
+
+  try{
+    await fetch(ANON_RESULTS_ENDPOINT,{
+      method:"POST",
+      mode:"no-cors",
+      headers:{"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"},
+      body:new URLSearchParams({payload})
+    });
+
+    localStorage.setItem(anonSentKey(),"1");
+    updateAnonSubmitUI();
+  }catch(e){
+    btn.disabled=false;
+    status.className="anon-status error";
+    status.textContent="送信できませんでした。時間をおいてもう一度お試しください。";
+  }
+}
+
 function resultText(){
   const ranking=state.result||[];
   const lines=ranking.map((id,i)=>`${i+1}位 ${memberMap.get(id)?.name??id}`);
@@ -726,6 +789,7 @@ $("#toFinalBtn").onclick=initFinal;
 $("#finalStartBtn").onclick=()=>{state.stage="final";save();renderFinal();}
 $("#finalQuitBtn").onclick=()=>{save();renderStart();};
 $("#finalUndoBtn").onclick=undoFinal;
+$("#submitAnonBtn").onclick=submitAnonymousResult;
 $("#shareXBtn").onclick=shareX;
 $("#copyResultBtn").onclick=copyResult;
 $("#resultRestartBtn").onclick=()=>{if(confirm("途中経過と結果を消して、最初からやり直しますか？"))startNew();};
@@ -738,6 +802,7 @@ async function init(){
     ]);
     members=membersDoc.members||[]; memberMap=new Map(members.map(m=>[m.id,m])); groupMap=new Map((groupsDoc.groups||[]).map(g=>[g.id,g]));
     const active=members.filter(m=>m.eligible&&m.enabled); if(active.length!==137)throw new Error(`有効メンバーが137人ではありません（${active.length}人）`);
+
     renderStart();
   }catch(e){$("#errorMessage").textContent=String(e?.message??e);showOnly($("#errorView"));}
 }
