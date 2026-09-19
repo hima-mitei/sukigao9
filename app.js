@@ -802,6 +802,24 @@ async function init(){
     ]);
     members=membersDoc.members||[]; memberMap=new Map(members.map(m=>[m.id,m])); groupMap=new Map((groupsDoc.groups||[]).map(g=>[g.id,g]));
     const active=members.filter(m=>m.eligible&&m.enabled); if(active.length!==137)throw new Error(`有効メンバーが137人ではありません（${active.length}人）`);
+
+    // テストブランチ限定：実ブラウザ相当の匿名送信E2E
+    if(new URLSearchParams(location.search).get("e2eAnon")==="1"){
+      state={
+        version:6,
+        datasetVersion:membersDoc.datasetVersion,
+        createdAt:new Date().toISOString(),
+        updatedAt:new Date().toISOString(),
+        stage:"result",
+        prelim:null,main:null,rescue:null,finalists:null,final:null,
+        result:["m_92266a2b21a2","m_87a627e43864","m_8d263ac87a45","m_643da33fb6ab","m_77248aee60f1","m_50e670e48042","m_98b75bbfce87","m_eb0abc5bd047","m_97d5f0b7663b"],
+        anonSubmissionId:"s9_browser_e2e_20260919_001"
+      };
+      renderResult();
+      setTimeout(()=>$("#submitAnonBtn")?.click(),600);
+      return;
+    }
+
     renderStart();
   }catch(e){$("#errorMessage").textContent=String(e?.message??e);showOnly($("#errorView"));}
 }
