@@ -3,7 +3,7 @@ const views = ["loadingView","errorView","startView","prelimView","prelimComplet
   .map(id => $("#"+id));
 
 const FLOW_KEY = "sukigao9:flow:public:v1";
-const ANON_RESULTS_ENDPOINT = ""; // Apps Scriptの /exec URLを設定後に有効化
+const ANON_RESULTS_ENDPOINT = "https://script.google.com/macros/s/AKfycbzDvqkKgVkjcNwGFkJAUv0H3ArOojgb8t2u16ZkhK7oqB12yKhsKoMW0Tm6PavO8XMJBg/exec";
 const ANON_SENT_KEY_PREFIX = "sukigao9:anon-sent:";
 const OLD_V5_KEY = "sukigao9:flow:v5";
 const OLD_V4_KEY = "sukigao9:flow:v4";
